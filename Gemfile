@@ -39,9 +39,7 @@ group :development, :test do
   gem 'capybara'
 end
 
-%w[rspec-core rspec-expectations rspec-mocks rspec-rails rspec-support].each do |lib|
-  gem lib, :git => "git://github.com/rspec/#{lib}.git", :branch => 'master'
-end
+
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
