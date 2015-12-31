@@ -48,7 +48,7 @@ group :test do
   gem 'launchy'
 end
 
-
+gem 'simple_form'
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
