@@ -42,6 +42,10 @@ group :development, :test do
   gem 'factory_girl_rails'
 end
 
+group :production do
+    gem 'puma',           '2.11.1'
+end
+
 group :test do
   gem 'faker'
   gem 'capybara'
